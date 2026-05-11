@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Creator Registration Form</title>
+  </head>
+
+  <body>
+    <h1>Digital Creator Registration Form</h1>
+    <p>Join as a creator and start your digital journey 🚀</p>
+
+    <form>
+      <!-- 1. Personal Information -->
+      <fieldset>
+        <legend>👤 Personal Information</legend>
+
+        <label>Full Name:</label><br />
+        <input type="text" name="fullName" required /><br /><br />
+
+        <label>Email Address:</label><br />
+        <input type="email" name="email" required /><br /><br />
+
+        <label>Phone Number:</label><br />
+        <input type="tel" name="phone" /><br /><br />
+
+        <label>City / Country:</label><br />
+        <input type="text" name="location" /><br /><br />
+
+        <label>Date of Birth:</label><br />
+        <input type="date" name="dob" /><br /><br />
+      </fieldset>
+
+      <br />
+
+      <!-- 2. Creator Profile -->
+      <fieldset>
+        <legend>🎨 Creator Profile</legend>
+
+        <label>Creator / Brand Name:</label><br />
+        <input type="text" name="brandName" /><br /><br />
+
+        <label>Content Category:</label><br />
+        <select name="category">
+          <option>Tech</option>
+          <option>Education</option>
+          <option>Vlogging</option>
+          <option>Fitness</option>
+          <option>Business</option>
+          <option>Comedy</option>
+          <option>AI / Digital</option>
+          <option>Other</option></select
+        ><br /><br />
+
+        <label>Short Bio:</label><br />
+        <textarea name="bio" rows="4" cols="40"></textarea>
+      </fieldset>
+
+      <br />
+
+      <!-- 3. Social Media -->
+      <fieldset>
+        <legend>📱 Social Media Links</legend>
+
+        <label>YouTube:</label><br />
+        <input type="url" name="youtube" /><br /><br />
+
+        <label>Instagram:</label><br />
+        <input type="url" name="instagram" /><br /><br />
+
+        <label>TikTok:</label><br />
+        <input type="url" name="tiktok" /><br /><br />
+
+        <label>LinkedIn:</label><br />
+        <input type="url" name="linkedin" /><br /><br />
+      </fieldset>
+
+      <br />
+
+      <!-- 4. Content Style -->
+      <fieldset>
+        <legend>💡 Content Style</legend>
+
+        <input type="checkbox" name="style" value="education" /> Educational
+        Videos<br />
+        <input type="checkbox" name="style" value="entertainment" />
+        Entertainment<br />
+        <input type="checkbox" name="style" value="tutorials" /> Tutorials<br />
+        <input type="checkbox" name="style" value="motivation" /> Motivational
+        Content<br />
+        <input type="checkbox" name="style" value="ai" /> AI / Tech Content<br />
+        <input type="checkbox" name="style" value="reviews" /> Product
+        Reviews<br />
+      </fieldset>
+
+      <br />
+
+      <!-- 5. Goals -->
+      <fieldset>
+        <legend>🎯 Goals</legend>
+
+        <label>Why do you want to become a creator?</label><br />
+        <textarea rows="4" cols="40"></textarea><br /><br />
+
+        <label>Your main goal:</label><br />
+        <input type="radio" name="goal" value="fame" /> Fame<br />
+        <input type="radio" name="goal" value="income" /> Income<br />
+        <input type="radio" name="goal" value="brand" /> Personal Brand<br />
+        <input type="radio" name="goal" value="business" /> Business Growth<br />
+      </fieldset>
+
+      <br />
+
+      <!-- 6. Portfolio -->
+      <fieldset>
+        <legend>📂 Portfolio</legend>
+
+        <label>Upload Sample Work:</label><br />
+        <input type="file" name="portfolio" /><br /><br />
+
+        <label>Experience Level:</label><br />
+        <select name="experience">
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Professional</option>
+        </select>
+      </fieldset>
+
+      <br />
+
+      <!-- 7. Consent -->
+      <fieldset>
+        <legend>✅ Consent</legend>
+
+        <input type="checkbox" required /> I agree to terms & conditions
+      </fieldset>
+
+      <br /><br />
+
+      <button type="submit">Submit Registration</button>
+    </form>
+  </body>
+</html>
